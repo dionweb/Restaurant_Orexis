@@ -629,6 +629,21 @@ textarea{
 
 @media (max-width: 500px) {
 
+    header::after{
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+    }
+
+    header:hover .content{
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+    }
+
+    .about-content .img img:hover{
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+    }
+    
     .container .box p{
         margin-bottom: 0;
     }
