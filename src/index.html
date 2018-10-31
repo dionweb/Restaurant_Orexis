@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Restaurant Orexis</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="content">
+            <div class="icon">
+                <i class="fas fa-utensils fa-5x"></i>
+            </div>
+            <div class="title">
+                Orexis Restaurant
+            </div>
+            <div class="text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, hic?
+            </div>
+        </div>
+    </header>
+
+    <section class="about-section">
+        <h1>About Us</h1>
+        <div class="about-content">
+            <div class="img">
+                <img src="images/about.jpg" alt="restaurantimg">
+            </div>
+            <div class="text">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, sit? Reiciendis eligendi eaque
+                    necessitatibus ea culpa qui, mollitia, neque adipisci hic natus accusantium modi labore dignissimos
+                    pariatur! Cum eaque ipsum, explicabo eius ut illum hic, at commodi recusandae deserunt velit harum
+                    temporibus assumenda culpa ducimus aut necessitatibus. Cum, eius distinctio!</p>
+                <ul>
+                    <li><i class="fas fa-utensils"></i> Restaurant Name: Orexis</li>
+                    <li><i class="fas fa-history"></i> Established: 1914</li>
+                    <li><i class="far fa-calendar"></i> Open Hours: Mon-Saturday 10.00-21.00 (Sunday CLOSED)</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Address: 123 99th St. in Astoria</li>
+                    <li><i class="far fa-envelope"></i> E-mail: orexis@orexis.com</li>
+                    <li><i class="fas fa-phone"></i> Phone Number: 0001 0010 0011 0100</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="intro">
+        <div class="overlay"></div>
+        <div class="text">
+            <h1>What we offer?</h1>
+        </div>
+    </div>
+
+    <section class="offers offers-section">
+        <div class="offers-content">
+            <div class="box">
+                <h3>Traditional Foods</h3>
+                <img src="images/offers1.jpeg" alt="offer1">
+                <p>We offer foods and dishes which have been consumed many generations.</p>
+            </div>
+            <div class="box">
+                <h3>Excellent Service</h3>
+                <img src="images/offers2.jpeg" alt="offer2">
+                <p>We provide our clients an excellent service.</p>
+            </div>
+            <div class="box">
+                <h3>Affordable Prices</h3>
+                <img src="images/offers3.jpeg" alt="offer3">
+                <p>We offer affordable prices for every budget</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="intro">
+        <div class="overlay"></div>
+        <div class="text">
+            <h1>Menu</h1>
+        </div>
+    </div>
+
+    <section class="menu-section">
+        <div class="tab">
+            <button class="tabButtons" onclick="openMenu(event, 'Meat')" id="default"><i class="fas fa-utensils"></i>Meat</button>
+            <button class="tabButtons" onclick="openMenu(event, 'Salads')"><i class="fas fa-lemon"></i>Salads</button>
+            <button class="tabButtons" onclick="openMenu(event, 'Drinks')"><i class="fas fa-wine-glass-alt"></i>Drinks</button>
+        </div>
+
+        <div id="Meat" class="tabContent">
+            <div class="container">
+                <div class="box">
+                    <img src="images/menumeat1.jpeg" alt="meat1">
+                    <p>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, similique!</p>
+                    <p class="price">Price: 00.00 &euro;</p>
+                </div>
+                <div class="box">
+                    <img src="images/menumeat2.jpeg" alt="meat2">
+                    <p>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, similique!</p>
+                    <p class="price">Price: 00.00 &euro;</p>
+                </div>
+                <div class="box">
+                    <img src="images/menumeat3.jpeg" alt="meat3">
+                    <p>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, similique!</p>
+                    <p class="price">Price: 00.00 &euro;</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="Salads" class="tabContent">
+            <div class="container">
+                <div class="box">
+                    <img src="images/menusalad1.jpg" alt="salad1">
+                    <p>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, similique!</p>
+                    <p class="price">Price: 00.00 &euro;</p>
+                </div>
+                <div class="box">
+                    <img src="images/menusalad2.jpeg" alt="salad2">
+                    <p>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, similique!</p>
+                    <p class="price">Price: 00.00 &euro;</p>
+                </div>
+                <div class="box">
+                    <img src="images/menusalad3.jpg" alt="salad3">
+                    <p>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, similique!</p>
+                    <p class="price">Price: 00.00 &euro;</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="Drinks" class="tabContent">
+            <div class="container">
+                <div class="box">
+                    <img src="images/menubev1.jpeg" alt="drink1">
+                    <p>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, similique!</p>
+                    <p class="price">Price: 00.00 &euro;</p>
+                </div>
+                <div class="box">
+                    <img src="images/menubev2.jpg" alt="drink2">
+                    <p>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, similique!</p>
+                    <p class="price">Price: 00.00 &euro;</p>
+                </div>
+                <div class="box">
+                    <img src="images/menubev3.jpeg" alt="drink3">
+                    <p>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, similique!</p>
+                    <p class="price">Price: 00.00 &euro;</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="intro">
+        <div class="overlay"></div>
+        <div class="text">
+            <h1>Gallery</h1>
+        </div>
+    </div>
+
+    <section class="gallery-section">
+        <div class="row">
+            <div class="column">
+                <div class="img">
+                    <div class="imagetext">
+                        Lorem
+                    </div>
+                    <img src="images/Gallery/ga1.jpeg" alt="gallery1">
+                </div>
+                <div class="img">
+                    <div class="imagetext">
+                        Lorem
+                    </div>
+                    <img src="images/Gallery/ga5.jpeg" alt="gallery5">
+                </div>
+                <div class="img">
+                    <div class="imagetext">
+                        Lorem
+                    </div>
+                    <img src="images/Gallery/ga9.jpeg" alt="gallery9">
+                </div>
+            </div>
+            <div class="column">
+                <div class="img">
+                    <div class="imagetext">
+                        Lorem
+                    </div>
+                    <img src="images/Gallery/ga2.jpeg" alt="gallery2">
+                </div>
+                <div class="img">
+                    <div class="imagetext">
+                        Lorem
+                    </div>
+                    <img src="images/Gallery/ga6.jpeg" alt="gallery6">
+                </div>
+                <div class="img">
+                    <div class="imagetext">
+                        Lorem
+                    </div>
+                    <img src="images/Gallery/ga10.jpg" alt="gallery10">
+                </div>
+            </div>
+            <div class="column">
+                <div class="img">
+                    <div class="imagetext">
+                        Lorem
+                    </div>
+                    <img src="images/Gallery/ga3.jpeg" alt="gallery3">
+                </div>
+                <div class="img">
+                    <div class="imagetext">
+                        Lorem
+                    </div>
+                    <img src="images/Gallery/ga7.jpeg" alt="gallery7">
+                </div>
+                <div class="img">
+                    <div class="imagetext">
+                        Lorem
+                    </div>
+                    <img src="images/Gallery/ga11.jpeg" alt="gallery11">
+                </div>
+            </div>
+            <div class="column">
+                <div class="img">
+                    <div class="imagetext">
+                        Lorem
+                    </div>
+                    <img src="images/Gallery/ga4.jpeg" alt="gallery4">
+                </div>
+                <div class="img">
+                    <div class="imagetext">
+                        Lorem
+                    </div>
+                    <img src="images/Gallery/ga8.jpeg" alt="gallery8">
+                </div>
+                <div class="img">
+                    <div class="imagetext">
+                        Lorem
+                    </div>
+                    <img src="images/Gallery/ga12.jpeg" alt="gallery12">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="intro">
+        <div class="overlay"></div>
+        <div class="text">
+            <h1>Contact</h1>
+        </div>
+    </div>
+
+    <section class="contact-section">
+        <form>
+            <div class="nameinput">
+                <input type="text" name="Firstname" placeholder="Firstname">
+                <input type="text" name="Lastname" placeholder="Lastname">
+            </div>
+            <div class="contactinput">
+                <input type="email" name="Email" placeholder="E-mail">
+                <input type="tel" name="Phone" placeholder="Phone Number">
+            </div>
+            <div class="messageinput">
+                <textarea name="Message" placeholder="Enter your message" rows="10"></textarea>
+            </div>
+            <div class="submitBtn">
+                <input type="submit" value="Send">
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <h1>Visit Orexis</h1>
+        <div id="map"></div>
+        <h1>Or Follow us on social media</h1>
+        <div class="social">
+            <div class="facebook">
+                <i class="fab fa-facebook-f fa-2x"></i>
+                <h4>Facebook</h4>
+                <a href="" class="socialBtn">Like</a>
+            </div>
+            <div class="instagram">
+                <i class="fab fa-instagram fa-2x"></i>
+                <h4>Instagram</h4>
+                <a href="" class="socialBtn">Follow</a>
+            </div>
+            <div class="twitter">
+                <i class="fab fa-twitter fa-2x"></i>
+                <h4>Twitter</h4>
+                <a href="" class="socialBtn">Follow</a>
+            </div>
+            <div class="googleplus">
+                <i class="fab fa-google-plus-g fa-2x"></i>
+                <h4>Google+</h4>
+                <a href="" class="socialBtn">Follow</a>
+            </div>
+        </div>
+        <div class="footertext">
+            <p class="copyrights">Created by <a href="https://www.dionweb.me"><span>DionWeb</span></a> <br> Orexis &copy; 2018</p>
+        </div>
+    </footer>
+
+    <script src="js/map.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC13MXEGDP5JdoCAqbM4czsQyhc0hjVBAs&callback=initMap"></script>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
