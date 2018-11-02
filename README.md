@@ -1,7 +1,7 @@
 # Restaurant Orexis / Flexbox
 Restaurant template built from scratch (mainly with flexbox)
 
-![alt text](WORKINGONTHIS)
+![alt text](https://raw.githubusercontent.com/dionweb/Restaurant_Orexis/master/mockup.png?token=AmkVifmsBwWJne4o46qXiskNeI7VU4TKks5b5X3iwA%3D%3D)
 
 
 ## Clone
