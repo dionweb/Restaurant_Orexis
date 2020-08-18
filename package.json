@@ -4,8 +4,8 @@
   "description": "A website created from scratch",
   "main": "index.js",
   "scripts": {
-    "homepage" : "https://dionweb.github.io/Restaurant_Orexis",
-    "deploy" : "gh-pages -d src"
+    "homepage": "https://dionweb.github.io/Restaurant_Orexis",
+    "deploy": "gh-pages -d src"
   },
   "author": "Tsentidis Dionysios",
   "license": "MIT",
